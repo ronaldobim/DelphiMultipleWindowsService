@@ -54,7 +54,7 @@ procedure TMainService.GetServiceDisplayName;
 var
   ServiceDisplayName : String;
 begin
-  ServiceDisplayName := Trim(ParamStr(2));
+  ServiceDisplayName := Trim(ParamStr(3));
   if ServiceDisplayName <> '' then
     DisplayName := ServiceDisplayName;
 end;
